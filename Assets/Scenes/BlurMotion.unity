@@ -101,7 +101,7 @@ GameObject:
   - 222: {fileID: 579021930}
   - 114: {fileID: 579021929}
   m_Layer: 5
-  m_Name: Blur
+  m_Name: MainText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -418,7 +418,7 @@ GameObject:
   - 114: {fileID: 1327724723}
   - 114: {fileID: 1327724722}
   m_Layer: 5
-  m_Name: BlurMotionButton
+  m_Name: MainButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 797, y: -351.5}
+  m_AnchoredPosition: {x: 818, y: -346}
   m_SizeDelta: {x: 301, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327724722

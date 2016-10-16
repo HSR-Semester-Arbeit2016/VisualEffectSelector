@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Tilt.unity
   - enabled: 1
     path: Assets/Scenes/BlurMotion.unity
+  - enabled: 1
+    path: Assets/Scenes/DoubleSeeing.unity
