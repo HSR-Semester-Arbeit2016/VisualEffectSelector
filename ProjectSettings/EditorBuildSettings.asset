@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Scenes/BlurMotion.unity
   - enabled: 1
     path: Assets/Scenes/DoubleSeeing.unity
+  - enabled: 1
+    path: Assets/Scenes/RedLight.unity
