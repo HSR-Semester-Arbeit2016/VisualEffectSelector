@@ -4,16 +4,24 @@ using System.Collections.Generic;
 using System.Threading;
 
 public class Test : MonoBehaviour {
+	
+	private Queue myQ;
+	public Test() {
+		this.myQ = new Queue();
 
-	public Material mat;
+	}	
+
+
 	void OnRenderImage(RenderTexture src, RenderTexture dest) {
-		List<RenderTexture> sources = new List<RenderTexture>();
-		sources.Add (src);
-		if (sources.Count == 5) {
-			//Thread.Sleep(2000);
-			foreach (RenderTexture element in sources) {
-				Graphics.Blit (src, dest, mat);
-			}
+		myQ.Enqueue (src);
+	//gettmporary schauen
+		if (myQ.Count == 20) {
+			
+			src = (RenderTexture)myQ.Dequeue ();
+			Graphics.Blit(src,dest);
+		} else {
+			//	Graphics.Blit(src,dest);
 		}
+
 	}
 }
