@@ -47,6 +47,9 @@ public class BlurViewModel : MonoBehaviour {
 		case "4":
 			blurValueText.text = this.veryDrunkLevel;
 			break;
+		default:
+			blurValueText.text = this.soberLevel;
+			break;
 		
 		}
 	}

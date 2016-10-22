@@ -530,11 +530,13 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Alcohol Levels:
 
-    1. Sober
+    0. Sober
 
-    2. Slightly intoxicated
+    1. Slightly intoxicated
 
-    3. Drunk
+    2. Drunk
+
+    3. Very drunk
 
     4. Very drunk'
 --- !u!222 &590092238
@@ -913,8 +915,8 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 538, y: 292}
-  m_SizeDelta: {x: 256, y: 55}
+  m_AnchoredPosition: {x: 541, y: 292}
+  m_SizeDelta: {x: 331, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354755215
 MonoBehaviour:
@@ -948,7 +950,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Sober
 --- !u!222 &1354755216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1002,7 +1004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.99655175, g: 0.99655175, b: 0.99655175, a: 1}
+  m_Color: {r: 0.68235296, g: 0.68235296, b: 0.7568628, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1203,7 +1205,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 343, y: 292}
+  m_AnchoredPosition: {x: 326, y: 292}
   m_SizeDelta: {x: 68, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718179043
