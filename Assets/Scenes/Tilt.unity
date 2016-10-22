@@ -264,8 +264,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -507, y: -351.75}
-  m_SizeDelta: {x: 277, y: 62.5}
+  m_AnchoredPosition: {x: -478, y: -439.25}
+  m_SizeDelta: {x: 340, y: 62.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &442532173
 MonoBehaviour:
@@ -290,7 +290,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 4
     m_MaxSize: 76
     m_Alignment: 4
@@ -299,7 +299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Tilt Scene
+  m_Text: Tunnel View Scene
 --- !u!222 &442532174
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1176,7 +1176,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 742, y: -342}
+  m_AnchoredPosition: {x: 551.5, y: -429.5}
   m_SizeDelta: {x: 400, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755918456

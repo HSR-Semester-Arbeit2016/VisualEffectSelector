@@ -17,22 +17,20 @@ public class TiltViewModel : MonoBehaviour {
 		this.setDrunkLevelText(newValue);
 		this.setTiltShiftAreaSizeValue (newValue);
 	}
-
-
+		
 	private void setBlurAreaText(float value) {
 		Text blurValueText = GameObject.Find ("SliderValueText").GetComponent<Text> ();
 		blurValueText.text = value.ToString();
 	}
 	private void setTiltShiftAreaSizeValue(float newValue) {
-		AlcoholTiltShift cameraLeftBlur = GameObject.Find ("StereoCameraLeft").GetComponent<AlcoholTiltShift> ();
-		cameraLeftBlur.blurArea= newValue;
-		AlcoholTiltShift cameraRightBlur = GameObject.Find ("StereoCameraRight").GetComponent<AlcoholTiltShift> ();
-		cameraRightBlur.blurArea = newValue;
+		AlcoholTiltShift cameraLeft = GameObject.Find ("StereoCameraLeft").GetComponent<AlcoholTiltShift> ();
+		cameraLeft.blurArea= newValue;
+		AlcoholTiltShift cameraRight = GameObject.Find ("StereoCameraRight").GetComponent<AlcoholTiltShift> ();
+		cameraRight.blurArea = newValue;
 	}
 
 	private void setDrunkLevelText(float newValue) {
 		Text selectedAlcoholLevelText = GameObject.Find ("SelectedAlcoholLevelText").GetComponent<Text> ();
-		String value = newValue.ToString();
 		var myswitch = new Dictionary <Func<float,bool>, Action>{ 
 			{ x => x < 4 ,    () => selectedAlcoholLevelText.text = this.soberLevel}, 
 			{ x => x < 8 ,    () => selectedAlcoholLevelText.text = this.intoxicatedLevel},
