@@ -343,7 +343,7 @@ GameObject:
   - 222: {fileID: 1203601309}
   - 114: {fileID: 1203601308}
   m_Layer: 5
-  m_Name: BlurMotionText
+  m_Name: DelayText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -364,8 +364,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -458.5, y: -352.5}
-  m_SizeDelta: {x: 375, y: 80}
+  m_AnchoredPosition: {x: -460.4, y: -355.5}
+  m_SizeDelta: {x: 375, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203601308
 MonoBehaviour:
@@ -388,18 +388,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 4
     m_MaxSize: 76
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Blur Motion
+  m_Text: Delay
 --- !u!222 &1203601309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -440,8 +440,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 818, y: -346}
-  m_SizeDelta: {x: 301, y: 82}
+  m_AnchoredPosition: {x: 769.9, y: -342}
+  m_SizeDelta: {x: 400, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327724722
 MonoBehaviour:
