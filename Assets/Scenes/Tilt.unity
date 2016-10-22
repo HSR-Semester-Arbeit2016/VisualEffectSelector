@@ -585,7 +585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.16078432, b: 0, a: 1}
+  m_Color: {r: 0.5254902, g: 0.4745098, b: 0.4745098, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1419,8 +1419,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -601, y: 375.5}
-  m_SizeDelta: {x: 270, y: 150}
+  m_AnchoredPosition: {x: -605, y: 364}
+  m_SizeDelta: {x: 293, y: 214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037514039
 MonoBehaviour:
@@ -1443,7 +1443,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
@@ -1458,13 +1458,13 @@ MonoBehaviour:
 
     0. Sober
 
-    1. Slightly intoxicated
+    4. Slightly intoxicated
 
-    2. Drunk
+    8. Drunk
 
-    3. Very drunk
+    12. Very drunk
 
-    4. Very drunk'
+    15. Very drunk'
 --- !u!222 &2037514040
 CanvasRenderer:
   m_ObjectHideFlags: 0
