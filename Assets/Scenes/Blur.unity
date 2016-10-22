@@ -915,7 +915,7 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 503, y: 375.5}
+  m_AnchoredPosition: {x: 540, y: 375.5}
   m_SizeDelta: {x: 331, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354755215
@@ -1205,7 +1205,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 292.5, y: 375.5}
+  m_AnchoredPosition: {x: 325, y: 375.5}
   m_SizeDelta: {x: 68, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718179043

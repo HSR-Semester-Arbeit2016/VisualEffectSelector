@@ -48,7 +48,7 @@ public class BlurViewModel : MonoBehaviour {
 			blurValueText.text = this.veryDrunkLevel;
 			break;
 		default:
-			blurValueText.text = this.soberLevel;
+			Console.WriteLine("Default case");
 			break;
 		
 		}
