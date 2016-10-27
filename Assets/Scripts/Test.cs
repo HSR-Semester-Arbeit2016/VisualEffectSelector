@@ -13,9 +13,19 @@ public class Test : MonoBehaviour {
 
 
 	void OnRenderImage(RenderTexture src, RenderTexture dest) {
-		myQ.Enqueue (src);
+		RenderTexture temporary = RenderTexture.GetTemporary (src.width, src.height);
+
+
+		if (temporary.IsCreated ()) {
+			Debug.Log ("Yuhi ");
+			myQ.Enqueue (temporary);
+		} else {myQ.Enqueue (src);
+		}
+
 	//gettmporary schauen
-		if (myQ.Count == 20) {
+
+
+		if (myQ.Count == 80) {
 			
 			src = (RenderTexture)myQ.Dequeue ();
 			Graphics.Blit(src,dest);
