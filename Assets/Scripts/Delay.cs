@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 
-public class DelayScript : MonoBehaviour {
+public class Delay : MonoBehaviour {
 	private Queue myQ;
 
-	public DelayScript() {
+	public Delay() {
 		this.myQ = new Queue();
 
 	}	
